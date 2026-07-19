@@ -1,0 +1,205 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mechatrons 2026 · ITS Surabaya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-icon">⚙️</span>
+        <span class="logo-text">MECHATRONS</span>
+        <span class="logo-year">2026</span>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu navigasi">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#hero">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#campus">Kampus</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="badge hero-badge">#Mechatrons2026</span>
+          <h1 class="hero-title">Bayu Caraka <br class="hide-on-mobile"/>UAV Research Team</h1>
+          <p class="hero-sub">
+            MECHATRONS x TDC ITS.
+            Nyoba penugasan KPP Official by Daffa Roffi Kurniawan
+          </p>
+          <div class="hero-actions">
+            <a href="#about" class="btn btn-primary">Jelajahi</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-illustration">
+            <!-- Ganti dengan gambar lokal: ubah src="assets/bolt.png" -->
+            <img 
+              src="assets/bolt.png" 
+              alt="Petir - Energi MECHATRONS" 
+              class="hero-icon-img"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+            />
+            <span class="hero-icon-glow" style="display:none;">⚡</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0 C300,100 600,20 900,80 C1100,120 1150,40 1200,0 L1200,120 L0,120 Z" fill="#ffffff" opacity="0.95"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Tentang Kami</span>
+          <h2>Menggerakkan Inovasi</h2>
+          <p>Kolaborasi lintas disiplin untuk menciptakan teknologi cerdas.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card" style="animation-delay: 0.1s;">
+            <div class="card-icon">🤖</div>
+            <h3>Robotika</h3>
+            <p>Desain dan pengembangan sistem robotik yang cerdas dan adaptif untuk berbagai kebutuhan industri.</p>
+          </div>
+          <div class="about-card" style="animation-delay: 0.2s;">
+            <div class="card-icon">🧠</div>
+            <h3>AI & Otomasi</h3>
+            <p>Memanfaatkan kecerdasan buatan untuk mengotomatisasi proses dan meningkatkan efisiensi kerja.</p>
+          </div>
+          <div class="about-card" style="animation-delay: 0.3s;">
+            <div class="card-icon">🔧</div>
+            <h3>Mekatronika</h3>
+            <p>Integrasi mekanik, elektronik, dan kontrol untuk menciptakan sistem cerdas yang andal.</p>
+          </div>
+          <div class="about-card" style="animation-delay: 0.4s;">
+            <div class="card-icon">📡</div>
+            <h3>IoT & Jaringan</h3>
+            <p>Konektivitas cerdas antar perangkat untuk ekosistem industri yang terintegrasi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CAMPUS (ITS SURABAYA) ===== -->
+    <section id="campus" class="campus">
+      <div class="container campus-container">
+        <div class="campus-content">
+          <span class="badge light">Kampus</span>
+          <h2>Institut Teknologi Sepuluh Nopember</h2>
+          <p class="campus-sub">
+            ITS Surabaya — pusat unggulan teknologi dan inovasi di Indonesia Timur.
+          </p>
+          <div class="campus-stats">
+            <div class="stat-item">
+              <span class="stat-number">1957</span>
+              <span class="stat-label">Tahun Berdiri</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">17</span>
+              <span class="stat-label">Fakultas</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100+</span>
+              <span class="stat-label">Program Studi</span>
+            </div>
+          </div>
+          <div class="campus-details">
+            <div class="detail-item">
+              <span class="detail-icon">🏛️</span>
+              <div>
+                <h4>ITS Robotic Center</h4>
+                <p>Jalan Raya ITS, Surabaya Jawa Timur 60111</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <span class="detail-icon">🌐</span>
+              <div>
+                <h4>Website Resmi</h4>
+                <p><a href="https://www.its.ac.id" target="_blank" rel="noopener">www.its.ac.id</a></p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <span class="detail-icon">🎓</span>
+              <div>
+                <h4>Tim Riset Robotik ITS</h4>
+                <p>Bayu Caraka UAV Research Team</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="campus-image">
+          <div class="campus-illustration">
+            <!-- Ganti dengan gambar lokal: ubah src="assets/its-campus.png" -->
+            <img 
+              src="assets/its-campus.png" 
+              alt="Kampus ITS Surabaya" 
+              class="campus-icon-img"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+            />
+            <div class="campus-icon" style="display:none;">🏫</div>
+            <div class="campus-glow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <p>&copy; 2026 MECHATRONS Official</p>
+        <p class="footer-its">Institut Teknologi Sepuluh Nopember Surabaya</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#campus">Kampus</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS untuk mobile menu -->
+  <script>
+    (function() {
+      const toggle = document.getElementById('menuToggle');
+      const nav = document.getElementById('navMenu');
+      if (toggle && nav) {
+        toggle.addEventListener('click', function() {
+          nav.classList.toggle('active');
+          toggle.classList.toggle('active');
+        });
+        nav.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            nav.classList.remove('active');
+            toggle.classList.remove('active');
+          });
+        });
+      }
+    })();
+  </script>
+
+</body>
+</html>
